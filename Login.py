@@ -19,7 +19,7 @@ def click():
         planilha ['A2'] = add
         planilha ['B1'] = "Senha"
         planilha ['B2'] = sen
-        wb.save('.\ExcelSaves/File.xlsx')
+        wb.save('./File.xlsx')
         print("Save File.....")
 
 
